@@ -3,8 +3,6 @@ const mysql = require('mysql');
 const session = require('express-session');
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
-const multer = require('multer');
-const axios = require('axios');
 const bodyParser = require('body-parser');
 const connection = require('./db');
 
